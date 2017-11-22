@@ -1,0 +1,163 @@
+/*
+ * Estilos de tu proyecto
+ */
+ /* Definiendo estilo a la  barra del navegador*/
+#mainnav{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#mainnav{
+font-family: Montserrat;
+font: -weight: 700;
+text-transform: uppercase;
+position: fixed;
+background-color:#2c3e50;
+top: 0;
+right: 0;
+left: 0;
+width: 100%;
+}
+
+.navMenu{
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+}
+
+.container{
+  max-width: 99%;
+}
+
+.container{
+  width: 100%;
+  padding-right: 15px;
+  padding-left:15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#mainnav.navMenu-item1{
+  font-size: 16px;
+  color:#fff;
+}
+.navMenu-item1{
+   display: inline-block;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   margin-right: 8px;
+}
+
+a{
+  background-color: transparent;
+}
+
+.second-navMenu{
+  display: inline;
+}
+/* stilos  a section 1 e imagen*/
+head .section-1{
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+header .section-1{
+  text-decoration: center;
+  color:#fff;
+  background:#18be9c;
+}
+  header .section-1 img{
+    display:block;
+    margin: 0 auto 20px;
+}
+img{
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+/* estilos  a  texto*/
+
+header .section-1 .intro-text .titule{
+  font family:Montserrat;
+  font-weight: 700;
+  display: block;
+  text-transform: uppercase;
+
+}
+
+
+header > div > .menu-item{
+  margin-top: 20px 40px;
+  margin-left: 300px;
+  width: 150px;
+  font-family: Montserrat
+  font-weight: 400;
+  color: white;
+}
+
+
+.container{
+  width: 100%;
+  height:100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+
+}
+.container:before, .container:after{
+  content: " ";
+  display: table;
+}
+#section-1{
+  text-aling:center;
+  display: block;
+  color: white;
+  background: #18be9c;
+  height: 520px;
+  }
+#section-1{
+  padding-top: 80px
+}
+
+#section-1 >.img{
+  display:inline-block;
+  margin:top;
+  pading: 40px 40px;
+}
+
+
+.text1.name{
+  font-family: Montserrat;
+  font-size: 50px;
+  font-weight: 700px;
+  display: block;
+  text-transform: uppercase;
+}
+
+
+
+
+*{
+  -webkit-box-sizing:border-box;
+  -moz-box-sizzing:border-box;
+  box-sizing: border-box;
+}
+*:before, *:after{
+
+  box-sizing: border-box;
+}
+
+
+body{ /*definiendo body*/
+  margin: 0 auto;
+  font-size: 25px;
+  font-weight: 400;
+  color:#212529;
+
+}
+
+.float-rigth{
+  float: rigth;
+}
+.float-left{
+  float:left;
+}
